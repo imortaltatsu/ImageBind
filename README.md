@@ -71,8 +71,8 @@ pip install soundfile
 Extract and compare features across modalities (e.g. Image, Text and Audio).
 
 ```python
-from imagebind import data
 import torch
+from imagebind import data
 from imagebind.models import imagebind_model
 from imagebind.models.imagebind_model import ModalityType
 
